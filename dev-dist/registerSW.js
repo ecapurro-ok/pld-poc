@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/pld-poc/dev-sw.js?dev-sw', { scope: '/pld-poc/', type: 'classic' })
