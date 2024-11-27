@@ -1,0 +1,48 @@
+:root {
+    --color-skeleton: #DDDBDD;
+
+    --bg-color: rgb(253 253 255 / 1) ;
+    --bg-color-sidedar: var(--bg-color);
+    --bg-color-columns: #fff;
+    --border-columns: 1px solid rgba(229, 231, 235, 0.5);
+    --opacity-sidebar-icon: 1;
+    --opacity-menu-icon: .35;
+    --fill-sidebar-icon: #697080;
+    --hover-menu-icon: rgb(17 24 39 / .04);
+
+    --border-color-sidebar:  var(--bg-color);
+    --bg-color-etiqueta-topbar: #eee;
+
+    --font-color-primary: #111827;
+    --font-color-secondary: #6b7280;
+
+    --color-scrollbar: #ddd;   
+    --color-hover-scrollbar:#bbb;
+  } 
+
+
+  /*  Dark Scheme */
+  [data-theme="dark"] {
+    --color-skeleton: #dddbdd49;
+    
+    --bg-color: #111827;
+    --bg-color-sidedar: var(--bg-color);
+    --bg-color-columns: #1B1F31;
+    --border-columns: 1px solid rgb(75, 85, 99);
+    --border-columns: black;
+
+    --opacity-sidebar-icon: 1;
+    --opacity-menu-icon: .8;
+    --fill-sidebar-icon: rgb(229, 231, 235);    
+    --hover-menu-icon: var(--bg-color);
+
+    --border-color-sidebar: var(--bg-color);
+    --bg-color-etiqueta-topbar: #0F1123;
+
+    --font-color-primary: rgb(255, 255, 255);
+    --font-color-secondary: #6b7280;
+
+    --color-scrollbar: #343B4B;   
+    --color-hover-scrollbar:#1C2332;
+   
+  }

@@ -1,0 +1,7 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap";
+
+@import './normalize.css';
+@import './vars.css';
+@import './base.css';
+@import './layout.css';
+@import './skeleton.css';

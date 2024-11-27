@@ -1,0 +1,41 @@
+#app {
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  body,
+  html {
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(17, 24, 39);  
+    background-color: var(--bg-color);          
+    transition: var(--theme-transition);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+
+
+button:active,
+button:focus,
+button:focus:active {
+  outline: 0;
+  box-shadow: none!important;
+}
+
+/* Disable blue highlight on button click */
+button {
+  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* You can do the same for links */
+a {
+-webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
