@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
-  base: 'https://ecapurro-ok.github.io/pld-poc',
+  // base: 'https://ecapurro-ok.github.io/pld-poc',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
